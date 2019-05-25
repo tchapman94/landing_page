@@ -5,7 +5,7 @@ body {
 }
 
 .banner { 
-    background: url(http://cdn.cheatcc.com/news_images/Revamped%20Destiny%20Website%20Reveals%20Playable%20Classes%20and%20More.jpg) no-repeat center center ; 
+    background: url(http://getwallpapers.com/wallpaper/full/6/8/b/683905.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -33,18 +33,24 @@ header {
  
 h2 {
     background-color: white;
-    margin-right: 300px;
-    margin-left: 300px;
+    margin-right: 400px;
+    margin-left: 400px;
     position: relative;
-    top: -85px;
+    top: -50px;
+    font-size: 40px;
+    border-radius: 25px;
+    opacity: 0.75;
+    
 
 }
 p {
     font-family: 'pt serif', sans-serif;
-    /* flex-grow: 2; */
     font-weight: 700;
-    font-size: 15px;
-    
+    font-size: 10px;
+    position: relative;
+    top: -15px;
+    padding: 10px;
+
 }
 .fa-gamepad {
     color:black;
@@ -71,7 +77,11 @@ p {
     margin-right: 100px;
     margin-left: 100px;
     color: white;
-    background-color: gray;
+    background-color: blue;
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 10px;
+    opacity: 0.75;
 }
 
 footer {
@@ -81,4 +91,45 @@ footer {
     height: 80px;
     margin-top: -22px;
 
+
+}
+
+.clan-summary {
+    margin-right: 100px;
+    margin-left: 100px;
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    border-radius: 25px;
+    /* padding: 15px; */
+    opacity: 0.75;
+
+}
+
+.clan-moments {
+    background-color: gray; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: calc(100vh - 80px);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: -150px;
+}
+.button-2 {
+    margin-right: 100px;
+    margin-left: 100px;
+    color: white;
+    background-color: blue;
+    font-size: 25px;
+    border-radius: 25px;
+    opacity: 0.75;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768){
+    
+    
 }
