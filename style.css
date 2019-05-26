@@ -1,6 +1,8 @@
 body {
     margin: 0;
     
+    padding: 0;
+    
     text-align: center;
 }
 
@@ -94,7 +96,7 @@ p {
 footer {
     background-color: black;
     color: blue;
-    width: 100%;
+    /* width: 100%; */
     height: 80px;
     margin-top: -22px;
     padding: 25px;
