@@ -152,6 +152,7 @@ h2 .story .clan-summary {
 .clan-pics {
     height: 300px;
     width: 425px;
+
 }
 
 h3 {
@@ -171,6 +172,24 @@ h3 {
 
 
 /* MEDIA QUERIES */
+@media only screen and (max-width: 500px){
+
+    header {
+        width: 100vw;
+        height: 100px;
+        background-color: gray;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+        padding: 1px;
+    }
+
+    .clan-pics {
+        height: 300px;
+        width: 100vw;
+    }
+}
 @media only screen and (max-width: 768px){
     .fa-playstation{
         display: none;
@@ -248,6 +267,9 @@ h3 {
         font-size: 30px;
     }
 
+    .clan-pics {
+        height: 300px;
+        width: 400px;    
 }
 
 @media only screen and (min-width: 1000px){
