@@ -118,6 +118,15 @@ footer {
 
 }
 
+.clan-testimonials{
+    background-color: black; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+}
+
 .clan-moments {
     background-color: gray; 
     -webkit-background-size: cover;
@@ -157,19 +166,20 @@ h2 .story .clan-summary {
 
 h3 {
     color: blue;
-    background-color: gray;
-    /* border-radius: 15px; */
+    background-color: white;
+    border-radius: 15px;
     padding: 10px;
-    margin: 0;
+    margin: 25px;
     font-size: 50px;
-    opacity: 0.75;
-    }
-    /* img {
-        margin-left: 25px;
-        margin-right: 25px;
-    } */
-
-
+} 
+.testimonial {
+    background-color:blue;
+    margin: 15px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: white;
+    border:12px solid #000000;
+}
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 500px){
@@ -215,6 +225,7 @@ h3 {
     font-family: 'pt serif', sans-serif;
     text-decoration: none;
     font-size: 20px;
+    margin: 25px;
     }
 
     .story {
